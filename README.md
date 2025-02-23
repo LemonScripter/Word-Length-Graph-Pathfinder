@@ -35,7 +35,7 @@ The graphs show three key metrics:
 
 ## Graph Structure
 
-![Phrase Length Graph](./phrase_graph.png)
+![Phrase Length Graph](https://github.com/LemonScripter/Word-Length-Graph-Pathfinder/blob/main/phrase_graph.png)
 
 The graph visualization shows:
 - Nodes representing different phrase lengths (numbers indicate character count)
