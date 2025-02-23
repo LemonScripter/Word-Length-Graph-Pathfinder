@@ -26,7 +26,7 @@ The algorithm works in several phases:
 
 We compared our optimized search algorithm with breadth-first search (BFS). The results show significant improvements:
 
-![Algorithm Comparison][(https://raw.githubusercontent.com/LemonScripter/Word-Length-Graph-Pathfinder/main/comparison_graphs.png)](https://github.com/LemonScripter/Word-Length-Graph-Pathfinder/blob/main/comparasion.png)
+![Algorithm Comparison](https://github.com/LemonScripter/Word-Length-Graph-Pathfinder/blob/main/comparasion.png)
 
 The graphs show three key metrics:
 - **Runtime Comparison**: Our optimized algorithm shows significantly better performance (near-zero runtime compared to BFS)
