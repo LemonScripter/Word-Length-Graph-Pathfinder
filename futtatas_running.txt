@@ -1,0 +1,75 @@
+# Szóhosszúság-alapú gráfkereső program futtatása
+# Running the Word Length Graph Pathfinder
+
+## Környezet beállítása / Setting up the environment
+
+1. Python 3.8+ telepítése szükséges / Python 3.8+ is required
+2. Függőségek telepítése / Install dependencies:
+```bash
+pip install matplotlib networkx unicodedata2
+```
+
+## Projekt struktúra / Project structure
+
+A helyes könyvtárstruktúra / The correct directory structure:
+```
+Euler/
+├── __init__.py
+├── main.py
+├── core/
+├── images/
+├── search/
+├── visualization/
+├── utils/
+└── sample/
+    └── input_text.txt
+```
+
+## Futtatási mód / Running method
+
+1. Navigáljon az Euler könyvtárba / Navigate to the Euler directory
+   ```bash
+   cd path/to/Euler
+   ```
+
+2. Készítse el a sample könyvtárat / Create the sample directory
+   ```bash
+   mkdir sample
+   ```
+
+3. Helyezze el az input_text.txt fájlt a sample könyvtárban / Place input_text.txt in the sample directory
+
+4. Futtassa a programot / Run the program:
+   ```bash
+   python main.py
+   ```
+
+## Hibakeresés / Troubleshooting
+
+Ha ImportError-t kap / If you get ImportError:
+- Ellenőrizze, hogy az Euler könyvtárban van / Check if you're in the Euler directory
+- Ellenőrizze, hogy minden Python fájl a helyén van / Check if all Python files are in place
+
+Ha FileNotFoundError-t kap / If you get FileNotFoundError:
+- Ellenőrizze, hogy létezik-e a sample/input_text.txt / Check if sample/input_text.txt exists
+- Ellenőrizze a fájl jogosultságokat / Check file permissions
+
+## Tesztelés / Testing
+
+Gyors teszt futtatásához / For a quick test:
+1. Hozzon létre egy minta szöveget / Create a sample text:
+   ```bash
+   echo "Ez egy minta szöveg a program teszteléséhez." > sample/input_text.txt
+   ```
+
+2. Futtassa a programot / Run the program:
+   ```bash
+   python main.py
+   ```
+
+## Debug mód / Debug mode
+
+Debug információk megjelenítéséhez / To show debug information:
+```bash
+python main.py --debug
+```
