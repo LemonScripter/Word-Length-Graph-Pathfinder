@@ -26,7 +26,7 @@ The algorithm works in several phases:
 
 We compared our optimized search algorithm with breadth-first search (BFS). The results show significant improvements:
 
-![Algorithm Comparison](comparison_graphs.png)
+![Algorithm Comparison](./comparison_graphs.png)
 
 The graphs show three key metrics:
 - **Runtime Comparison**: Our optimized algorithm shows significantly better performance (near-zero runtime compared to BFS)
@@ -35,7 +35,7 @@ The graphs show three key metrics:
 
 ## Graph Structure
 
-![Phrase Length Graph](phrase_graph.png)
+![Phrase Length Graph](./phrase_graph.png)
 
 The graph visualization shows:
 - Nodes representing different phrase lengths (numbers indicate character count)
